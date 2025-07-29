@@ -4,10 +4,11 @@ services:
     name: calmcompass-backend
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python api.py  
+    startCommand: python api.py 
+    pythonVersion: 3.10.13 
     envVars:
       - key: OPENWEATHER_API_KEY
-        value: your_actual_key
+        value: 12b18abeb01c0862ffe334f834871ab4
     plan: free
     region: oregon
     rootDir: backend

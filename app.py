@@ -175,7 +175,7 @@ def crowd_alert():
 #         return jsonify({"error": str(e)}), 500
 
 
-if __name__ == '__main__':
-    CORS(app)  # Enables frontend-backend communication
+if __name__ == "__main__":
+    CORS(app)
 
-    app.run(host='0.0.0.0', port=10000)  # Render uses port 10000
+    app.run(host="0.0.0.0", port=8080)
